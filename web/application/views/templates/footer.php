@@ -44,10 +44,10 @@
                 }
             },
             series: [{
-                name: 'Tokyo',
+                name: 'KELEMBAPAN',
                 data: <?php echo json_encode($data); ?>
             }, {
-                name: 'London',
+                name: 'SUHU',
                 data: <?php echo json_encode($suhu); ?>
             }]
         });

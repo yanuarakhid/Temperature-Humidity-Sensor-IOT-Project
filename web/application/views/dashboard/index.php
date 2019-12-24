@@ -32,7 +32,24 @@
         <tbody>
             <?php $no = 1 ?>
             <?php foreach ($data as $data) : ?>
-                <tr class="text-center">
+            <?php if ($data["suhu"]>=29) :?>
+                <tr class="text-center table-danger">
+                    <th scope="row"><?= $no  ?></th>
+                    <td><?= $data["suhu"]; ?> &#8451;</td>
+                    <td><?= $data["kelembapan"]; ?> %</td>
+                    <td><?php date_default_timezone_set('Asia/Jakarta');
+                        echo date('m/d/Y H:i:s', $data["waktu"]); ?></td>
+                </tr>
+                <?php elseif ($data["suhu"]<=27) :?>
+                    <tr class="text-center table-primary">
+                    <th scope="row"><?= $no  ?></th>
+                    <td><?= $data["suhu"]; ?> &#8451;</td>
+                    <td><?= $data["kelembapan"]; ?> %</td>
+                    <td><?php date_default_timezone_set('Asia/Jakarta');
+                        echo date('m/d/Y H:i:s', $data["waktu"]); ?></td>
+                </tr>
+                <?php else :?>
+                    <tr class="text-center table-success">
                     <th scope="row"><?= $no  ?></th>
                     <td><?= $data["suhu"]; ?> &#8451;</td>
                     <td><?= $data["kelembapan"]; ?> %</td>
@@ -40,6 +57,7 @@
                         echo date('m/d/Y H:i:s', $data["waktu"]); ?></td>
                 </tr>
                 <?php $no++ ?>
+            <?php endif;?>
             <?php endforeach; ?>
         </tbody>
     </table>
