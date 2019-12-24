@@ -23,7 +23,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://iot.kelompok5.com:8080';
+//
+
+//$config['base_url'] = 'http://iot.kelompok5.com:8080';
+
+//$allowed_domains = array('iot.kelompok5.com:8080', 'kelompot5.iot', '192.168.0.14', '10.100.5.1');
+//$default_domain  = 'kelompok5.iot';
+
+//if (in_array($_SERVER['HTTP_HOST'], $allowed_domains, TRUE)) {
+//    $domain = $_SERVER['HTTP_HOST'];
+//} else {
+//    $domain = $default_domain;
+//}
+
+//if (!empty($_SERVER['HTTPS'])) {
+//    $config['base_url'] = 'https://' . $domain;
+//} else {
+//    $config['base_url'] = 'http://' . $domain;
+//}
+
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https" : "http";
+$config['base_url'] = "$protocol://{$_SERVER['HTTP_HOST']}";
 
 /*
 |--------------------------------------------------------------------------
