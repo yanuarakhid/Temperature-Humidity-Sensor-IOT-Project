@@ -23,7 +23,7 @@
     <table class="table table-striped table-bordered table-hover table-sm">
         <thead>
             <tr class="text-center">
-                <th scope="col">No.</th>
+                <th scope="col">SUHU</th>
                 <th scope="col">KELEMBAPAN</th>
                 <th scope="col">Waktu</th>
             </tr>
