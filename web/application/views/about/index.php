@@ -22,7 +22,7 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
         <h1 class="display-4">About Us</h1>
-        <p class="lead">Kelompok 5</p>
+        <p class="lead">Kelompok 5 Hardware/Software 2</p>
     </div>
 </div>
 

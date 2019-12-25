@@ -1,9 +1,8 @@
 #include <ESP8266WiFi.h> //library esp8266
 #include <BlynkSimpleEsp8266.h> // library blynk
 #include "DHT.h"        // including the library of DHT11 temperature and humidity sensor
-
-#define BLYNK_PRINT Serial 
 #define DHTTYPE DHT11   // type of DHT 11
+#define BLYNK_PRINT Serial 
 
 #define dht_dpin D1 // definisikan port D1 sebagai port dht 11
 //Define semua led yang digunakan
