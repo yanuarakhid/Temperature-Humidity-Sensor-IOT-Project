@@ -12,7 +12,7 @@
 - Paste di File->Preferences->Addtional Board Manager Url->OK-> Kemudian Install
 9. [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 10. Web dan Database Server
-11. Software [Scrpy](https://github.com/Genymobile/scrcpy) untuk display android device ke pc (Optional)
+11. Software [Scrcpy](https://github.com/Genymobile/scrcpy) untuk display android device ke pc (Optional)
 
 ### Fitur Project
 
