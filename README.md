@@ -21,8 +21,8 @@
 - Web Server (Apache2)
 - DNS Server (bind9) -> http://kelompok5.iot
 - dan FTP server (proftpd) untuk upload file web ke server
-15. Agar dapat diakses dari publik kita menggunakan [Ngrok](https://ngrok.com/) 
--(*url web akan dinamis sesuai dengan yang digenerate oleh ngrok)
+15. Agar dapat diakses dari publik kita menggunakan [Ngrok](https://ngrok.com/).
+-(url web akan dinamis sesuai dengan yang digenerate oleh ngrok)
 
 ### Fitur Project
 
@@ -43,5 +43,5 @@ Nindra Reza	            |(18.11.2063)
 Akhid Yanuar Al-Fikri	|(18.11.2065)
 
 #### Sumber dan Inspirasi
-- [Dwi Arsana](https://www.youtube.com/watch?v=RFJZcJATbMU)
+- [Anak Agung Duwi Arsana](https://www.youtube.com/watch?v=RFJZcJATbMU)
 - [Tyto Mulyono](https://www.youtube.com/watch?v=uNU_d7M3FAg)
