@@ -10,14 +10,15 @@
 7. Library [DHT](https://github.com/adafruit/DHT-sensor-library)
 8. Board Manager [ESP8266](https://arduino.esp8266.com/stable/package_esp8266com_index.json) for Arduino IDE
 - Paste di File->Preferences->Addtional Board Manager Url->OK-> Kemudian Install
-9. [Arduino IDE] (https://www.arduino.cc/en/Main/Software)
+9. [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 10. Web dan Database Server
+11. Software [Scrpy](https://github.com/Genymobile/scrcpy) untuk display android device ke pc (Optional)
 
 ### Fitur Project
 
 - Monitoring Suhu & Kelembapan via Web local dan Publik via [Ngrok](https://ngrok.com/)
 - Simpan Data Hasil Sensor ke Database
-- Monitoring Suhu & Kelembapan via Android (Blynk App)
+- Monitoring Suhu & Kelembapan via Android ([Blynk](https://blynk.io/) App)
 - Dilengkapi Dengan Buzzer dan LED Notification
 
 #### Project ini Dibuat dan Dikembangan Oleh : 
