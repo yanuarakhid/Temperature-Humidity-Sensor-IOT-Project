@@ -1,6 +1,6 @@
 # Source Code IOT Project Sensor Suhu & Kelembapan
 
-### Alat dan Bahan
+## Alat dan Bahan
 1. [NodeMCU](https://www.tokopedia.com/kakakstoree/nodemcu-v3-lolin-lua-wifi-board-based-esp8266-arduino-ready)
 2. Sensor Suhu [DHT11](https://www.amazon.com/Breakout-DHT11-Temperature-Humidity-Sensor/dp/B01J0M3X3Y)
 3. Buzzer
@@ -24,14 +24,14 @@
 15. Agar dapat diakses dari publik kita menggunakan [Ngrok](https://ngrok.com/).
 -(url web akan dinamis sesuai dengan yang digenerate oleh ngrok)
 
-### Fitur Project
+## Fitur Project
 
 - Monitoring Suhu & Kelembapan via Web local (http://kelompok5.iot) dan Publik via [Ngrok](https://ngrok.com/)
 - Simpan Data Hasil Sensor ke Database
 - Monitoring Suhu & Kelembapan via Android ([Blynk](https://blynk.io/) App)
 - Dilengkapi Dengan Buzzer dan LED Notification
 
-#### Project ini Dibuat dan Dikembangan Oleh : 
+## Project ini Dibuat dan Dikembangan Oleh : 
 
 NAMA | NIM
 ------------ | -------------
@@ -40,8 +40,8 @@ Ricky Chandra	        |(18.11.2031)
 Dimas Priambodo	        |(18.11.2032)
 I Made Aditya Pratama	|(18.11.2062)
 Nindra Reza	            |(18.11.2063)
-Akhid Yanuar Al-Fikri	|(18.11.2065)
+Akhid Yanuar A.F	|(18.11.2065)
 
-#### Sumber dan Inspirasi
+## Sumber dan Inspirasi
 - [Anak Agung Duwi Arsana](https://www.youtube.com/watch?v=RFJZcJATbMU)
 - [Tyto Mulyono](https://www.youtube.com/watch?v=uNU_d7M3FAg)
