@@ -1,4 +1,4 @@
-# Source Code IOT Project Sensor Suhu & Kelembapan
+# Source Code IOT Project Temperature and Humidity Sensor Web-Based
 
 ## Alat dan Bahan
 1. [NodeMCU](https://www.tokopedia.com/kakakstoree/nodemcu-v3-lolin-lua-wifi-board-based-esp8266-arduino-ready)
